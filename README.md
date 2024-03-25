@@ -35,7 +35,7 @@ admin.site.register(book_DB,book_DBAdmin)
 models.py
 from django.db import models
 from django.contrib import admin
-class Book_DBS(models.Model):
+class Book_dbs(models.Model):
     bookno=models.IntegerField(primary_key=True);
     bookname=models.CharField(max_length=10);
     authorname=models.CharField(max_length=10);
